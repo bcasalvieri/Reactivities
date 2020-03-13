@@ -21,6 +21,7 @@ const ActivityDetailedChat = () => {
     return () => {
       stopHubConnection();
     };
+    // eslint-disable-next-line
   }, [createHubConnection, stopHubConnection]);
 
   return (
